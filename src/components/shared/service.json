@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_services",
+  "info": {
+    "displayName": "Service"
+  },
+  "options": {},
+  "attributes": {
+    "ServiceTitle": {
+      "type": "string"
+    },
+    "ServiceDescription": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

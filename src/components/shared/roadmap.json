@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_roadmaps",
+  "info": {
+    "displayName": "Roadmap"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Roadmapdetail": {
+      "type": "component",
+      "component": "shared.roadmapdetail",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

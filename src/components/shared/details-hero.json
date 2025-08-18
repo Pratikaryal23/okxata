@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_details_heroes",
+  "info": {
+    "displayName": "DetailsHero",
+    "icon": "globe"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

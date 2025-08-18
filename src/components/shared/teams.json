@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_teams",
+  "info": {
+    "displayName": "Teams",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Role": {
+      "type": "string"
+    },
+    "LinkedinUrl": {
+      "type": "text"
+    },
+    "GithubUrl": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

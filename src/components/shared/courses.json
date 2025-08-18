@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_courses",
+  "info": {
+    "displayName": "Courses",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "richtext"
+    },
+    "CourseCard": {
+      "type": "component",
+      "component": "shared.course-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

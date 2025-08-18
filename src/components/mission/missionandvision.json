@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_mission_missionandvisions",
+  "info": {
+    "displayName": "Missionandvision",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

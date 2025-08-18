@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_whatdefineuses",
+  "info": {
+    "displayName": "whatdefineus",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

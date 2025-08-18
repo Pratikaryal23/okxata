@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_why_chooseuses",
+  "info": {
+    "displayName": "WhyChooseus"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

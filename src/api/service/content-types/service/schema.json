@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "HeroService": {
+      "type": "component",
+      "component": "shared.hero-service",
+      "repeatable": false
+    },
+    "WhyChooseus": {
+      "type": "component",
+      "component": "shared.why-chooseus",
+      "repeatable": false
+    },
+    "Solution": {
+      "type": "component",
+      "component": "shared.solution",
+      "repeatable": true
+    },
+    "Roadmap": {
+      "type": "component",
+      "component": "shared.roadmap",
+      "repeatable": false
+    }
+  }
+}

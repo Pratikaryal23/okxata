@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_roadmapdetails",
+  "info": {
+    "displayName": "Roadmapdetail"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

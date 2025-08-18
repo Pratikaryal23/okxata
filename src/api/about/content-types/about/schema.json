@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": "Write about yourself and the content you create"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "ourstorytitle": {
+      "type": "string"
+    },
+    "ourstorydescription": {
+      "type": "text"
+    },
+    "ourstoryimage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "WhatWeDoTitle": {
+      "type": "string"
+    },
+    "WhatWeDoImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "WhatWeDoDescription": {
+      "type": "richtext"
+    },
+    "Mission": {
+      "type": "string"
+    },
+    "MisssionImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "MissionDescription": {
+      "type": "richtext"
+    }
+  }
+}

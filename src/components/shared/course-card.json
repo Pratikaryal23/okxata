@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_course_cards",
+  "info": {
+    "displayName": "CourseCard",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}
